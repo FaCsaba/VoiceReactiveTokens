@@ -1,0 +1,28 @@
+{
+  "name": "discord-reactive-tokens-fvtt",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve",
+    "build": "tsc && vite build"
+  },
+  "browserslist": [
+    ">5%",
+    "not IE 11"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.1",
+    "@types/discord-rpc": "^4.0.8",
+    "@types/hark": "^1.2.5",
+    "rollup-plugin-copy": "^3.5.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "hark": "^1.2.3"
+  }
+}

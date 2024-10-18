@@ -1,0 +1,17 @@
+{
+    "id": "discord-reactive-tokens",
+    "title": "Discord Reactive Tokens",
+    "description": "Changes token based on the speaker in a discord call.",
+    "authors": [
+        {
+            "name": "Raq"
+        }
+    ],
+    "version": "0.0.1",
+    "socket": true,
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "esmodules": ["scripts/module.js"]
+}
