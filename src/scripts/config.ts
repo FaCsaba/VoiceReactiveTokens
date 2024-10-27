@@ -1,7 +1,0 @@
-interface Config {
-    
-}
-
-enum Source {
-    
-}

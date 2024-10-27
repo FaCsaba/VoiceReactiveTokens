@@ -1,7 +1,7 @@
 {
-    "id": "discord-reactive-tokens",
-    "title": "Discord Reactive Tokens",
-    "description": "Changes token based on the speaker in a discord call.",
+    "id": "vrt",
+    "title": "Voice Reactive Tokens",
+    "description": "Let's your tokens react to the sound of their players voice.",
     "authors": [
         {
             "name": "Raq"
@@ -13,5 +13,14 @@
         "minimum": "12",
         "verified": "12"
     },
-    "esmodules": ["scripts/module.js"]
+    "esmodules": [
+        "scripts/module.js"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ]
 }

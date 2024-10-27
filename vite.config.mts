@@ -8,13 +8,22 @@ export default defineConfig({
             input: "src/module.ts",
             output: {
                 entryFileNames: "scripts/module.js",
+                dir: "vrt",
                 format: "es",
             },
         },
     },
     plugins: [
         copy({
-            targets: [{ src: "src/module.json", dest: "dist" }],
+            targets: [{ src: "src/module.json", dest: "vrt" }],
+            hook: "writeBundle",
+        }),
+        copy({
+            targets: [{ src: "src/lang", dest: "vrt" }],
+            hook: "writeBundle",
+        }),
+        copy({
+            targets: [{ src: "src/templates", dest: "vrt" }],
             hook: "writeBundle",
         }),
     ],

@@ -1,0 +1,17 @@
+<form class="flexcol">
+    <h1>{{ localize vrt.associationsSettingsHint }}</h1>
+    {{#each associations}}
+    <div class="form-group">
+        <label for="{{actorId}}">{{{actorName}}}</label>
+        <select id="{{actorId}}" name="{{actorId}}">
+            <option value="">None</option>
+            {{ selectOptions users selected=selectedUserId valueAttr="userId" labelAttr="userName" }}
+        </select>
+    </div>
+    {{/each}}
+    <footer class="sheet-footer flexrow">
+        <button type="submit" name="submit">
+            <i class="fa fa-check"></i> OK
+        </button>
+    </footer>
+</form>
