@@ -7,7 +7,7 @@
             "name": "Raq"
         }
     ],
-    "version": "0.0.1",
+    "version": "1.0.0",
     "socket": true,
     "compatibility": {
         "minimum": "12",

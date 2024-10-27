@@ -3,5 +3,6 @@
     "vrt.associations": "Associations",
     "vrt.associationsSettings": "Associations settings",
     "vrt.associationsSettingsHint": "Associate a user (including the Game master) to an actor and their tokens.",
-    "vrt.options.None": "None"
+    "vrt.options.None": "None",
+    "vrt.options.OK": "OK"
 }
